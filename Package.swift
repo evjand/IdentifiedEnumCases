@@ -21,7 +21,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/swiftlang/swift-syntax.git", "509.0.0"..<"601.0.0-prerelease"),
+        .package(url: "https://github.com/swiftlang/swift-syntax", "509.0.0"..<"602.0.0"),
     ],
     targets: [
         // Macro implementation that performs the source transformation of a macro.
